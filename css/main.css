@@ -1,0 +1,401 @@
+body {
+	font-family: 'Quicksand';
+	font-size: 14px;
+	background: #FFF6E9;
+}
+
+.has-text-centered {
+	text-align: center;
+}
+
+.is-vhcentered {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.is-flex {
+	display: flex!important;
+}
+
+.d-none {
+	display: none;
+}
+
+.is-uppercase {
+	text-transform: uppercase;
+}
+
+.main-nav {
+	justify-content: space-between;
+    align-items: center;
+    padding: 25px 100px;
+    height: 10vh;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+main  {
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+
+.main-nav li {
+	background: url('../media/link-bg.png') no-repeat center center;
+	height: 100%;
+	background-size: contain;
+}
+.main-nav li i {
+	padding: 10px;
+	color: white;
+	font-size: 15px;
+}
+
+.main-nav a {
+    padding: 0px 5px;
+}
+
+.main-nav img {
+    width: calc(50px + 3vw);
+}
+
+header h2 {
+	font-size: 2.5em;
+	letter-spacing: 5px;
+	color: #4E4E56;
+	margin: 0px;
+}
+
+.site-title img {
+	width: 50vw;
+}
+
+section .subscription {
+	width: 50vw;
+	margin: auto;
+	text-align: center; 
+}
+
+section .subscription p {
+	/*font-weight: 300;*/
+	margin: 20px auto;
+	letter-spacing: 1px;
+}
+
+section .subscription form {
+ 	height: 6vh;
+}
+
+section .subscription input {
+	width: 15vw;
+	border: 3px solid #DA635D;
+	padding: 5px; 
+}
+
+section .subscription button {
+    padding: 0px 5px;
+    letter-spacing: 2px;
+    border: 3px solid #DA635D; 
+    background: #DA635D;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+figure.plane {
+	position: relative;
+    height: 8vh;
+    margin-x: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plane img {
+    width: 30vw;
+    margin: auto;
+}
+
+.categories figure {
+	width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.categories figure img {
+	height: 30px;
+    width: 30px;
+}
+
+figure.mental-health {
+	background: url('../media/mh-bg.png') no-repeat center center;
+	background-size: contain; 
+}
+
+figure.environment {
+	background: url('../media/envi-bg.png') no-repeat center center;
+	background-size: contain; 
+}
+
+figure.women-empowerment {
+	background: url('../media/we-bg.png') no-repeat center center;
+	background-size: contain; 
+}
+
+figure.more {
+	background: url('../media/more-bg.png') no-repeat center center;
+	background-size: contain; 
+}
+
+
+.bottom-bg {
+	position: absolute;
+}
+
+.bottom-left {
+	position: absolute;
+    background: url(../media/bottom-left.png) no-repeat center center;
+    background-size: contain;
+    height: 26vw;
+    width: 22vw;
+    bottom: 0%;
+}
+
+.bottom-right {
+	position: absolute;
+    background: url(../media/bottom-right.png) no-repeat center center;
+    background-size: contain;
+    height: 20vw;
+    width: 25vw;
+    bottom: 0%;
+    right: -1%;
+    bottom: -4px;
+}
+
+.categories {
+	width: 50vw;
+	margin: 50px auto;
+}
+
+.categories .description {
+	width: 60%;
+	height: 6vw;
+	margin: 20px auto;
+	text-align: center;
+	font-size: 12px;
+}
+
+.mh-desc, .envi-desc, .we-desc, .more-desc {
+	height: 100%;
+	padding: 5px 25px 10px; 
+}
+
+.mh-desc {
+	display: none;
+	background: url('../media/mh-desc-bg.png') no-repeat center center;
+	background-size: contain;	
+}
+
+.envi-desc {
+	display: none; 
+	background: url('../media/envi-desc-bg.png') no-repeat center center;
+	background-size: contain;
+}
+
+.we-desc {
+	display: none; 
+	background: url('../media/we-desc-bg.png') no-repeat center center;
+	background-size: contain;
+}
+
+.more-desc {
+	display: none; 
+	background: url('../media/more-desc-bg.png') no-repeat center center;
+	background-size: contain;
+}
+
+
+.categories .icons {
+	width: 65%;
+	margin: auto;
+	justify-content: space-evenly;
+	display: flex;
+}
+
+.bottom-bg {
+	bottom: -1%;
+	width: 100%;
+}
+
+@media only screen and (min-width: 1440px) {
+
+	.categories figure {
+	    width: calc(60px + 2vw);
+	    height: calc(50px + 1vw);
+	}
+
+	.categories figure img {
+	    height: calc(30px + 1vw);
+	    width: calc(30px + 1vw);
+	}
+
+	.categories .description {
+	    font-size: calc(12px + .5vw);
+	    width: 70%;
+	    height: 10vw;
+    }	
+
+    .plane img {
+	    width: calc(30vw + .5vw);
+	}
+
+	.main-nav li i {
+        font-size: calc(15px + .5vw);
+	}
+
+	section .subscription p {
+	    font-size: calc(14px + .5vw);
+	}
+
+	header h2 {
+	    font-size: calc(2.5em + .5vw);
+	}
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+	.plane img {
+	    width: 50vw;
+	}
+
+
+	section .subscription p {
+	    letter-spacing: 2px;
+	    font-size: calc(14px + .5vw);
+	}
+
+	.bottom-left {
+		height: 42vw;
+    	width: 35vw;
+	}
+
+	.bottom-right {
+		height: 30vw;
+    	width: 38vw;
+	}
+
+	header h2 {
+	    font-size: 3em;
+	}
+
+	section .subscription form {
+	    height: 5vh;
+	}
+
+	section .subscription input {
+	    width: 30vw;
+	}
+
+	section .subscription {
+	    width: 80vw;
+	}
+
+	.site-title img {
+	    width: 75vw;
+	}
+
+	.categories .description {
+	    width: 100%;
+	    height: 15vw;
+        font-size: calc(12px + .4vw);
+	}
+
+	.categories .icons {
+	    width: 100%;
+	}
+	
+	.categories figure {
+		width: 75px;
+	    height: 70px;
+	}
+
+	.categories figure img {
+	    height: 40px;
+	    width: 40px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+    nav.main-nav {
+  	    padding: 20px 10px;
+    }
+
+   .site-title img {
+	    width: 90vw;
+	}
+
+    .plane img {
+  		width: 50vw;
+    }
+
+    section .subscription {
+  		width: 90vw;
+    }
+	section .subscription input {
+	  	width: 60vw;
+	}
+
+  	header h2 {
+		font-size: calc(1em + 1vh);
+	}
+
+	.categories {
+		width: 80vw;
+    	margin: 10px auto 20px;
+	}
+
+	.categories .description {
+		height: 17vh;
+		width: 100%;
+	}
+
+	.categories .icons {
+	    width: 85%;
+	}
+
+	.bottom-left {
+		display: none;
+	}
+
+	.bottom-right {
+	    display: none;
+	}
+
+}
+
+@media only screen and (max-width: 320px) {
+	.categories .description {
+	    height: 10vh;
+	}
+
+	.categories figure {
+	    width: 40px;
+	    height: 40px;
+	}
+
+	.categories figure img {
+	    height: 25px;
+	    width: 25px;
+	}
+
+	section .subscription p {
+    	margin: 15px auto;
+    }
+}

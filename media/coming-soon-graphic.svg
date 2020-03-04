@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="628.743" height="86.634" viewBox="0 0 628.743 86.634">
+  <defs>
+    <style>
+
+      #track {
+        stroke-dasharray: 1400;
+        animation: dash 10s ease-in;
+        animation-direction: reverse;
+      }
+
+      @keyframes dash {
+        from {
+          stroke-dashoffset: 0;
+        }
+        to {
+          stroke-dashoffset: 1400;
+        }
+      }
+
+      #plane  {
+        opacity: 0;
+        animation: show 0.5s ease forwards;
+        animation-delay: 3.5s;
+      }
+
+      @keyframes show {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        } 
+      } 
+
+      .cls-1, .cls-3 {
+        fill: none;
+        stroke-width: 2px;
+      }
+
+      .cls-1 {
+        stroke: #feb2a8;
+        stroke-dasharray: 7 12;
+      }
+
+      .cls-2 {
+        fill: #fe9c8f;
+      }
+
+      .cls-3 {
+        stroke: #fe9c8f;
+      }
+
+      .cls-4 {
+        fill: #d2ead4;
+      }
+    </style>
+  </defs>
+  <g id="coming-soon-graphic" transform="translate(-633.727 -489.096)">
+    <path id="track" class="cls-1" d="M719.886-29.61s23.18,14.577,51.018,13.119,88.751-28.364,138.478-25.9c21.56,1.07,67.487,7.551,84.764,12.778,37.8,11.434,40.431,31.815,13.384,31.815-20.109,0-27.006-12.992,0-24.78,25.31-11.048,68.025-22.132,111.755-19.812s70.087,26.151,113.028,25.9S1305-42.388,1305-42.388" transform="translate(-85.627 572.525)"/>
+    <g id="plane">
+      <path id="Path_64" data-name="Path 64" class="cls-2" d="M1443.413-80.4l-10.734-2.736,45.251-19.784Z" transform="translate(-222 603)"/>
+      <g id="Group_3" data-name="Group 3" transform="translate(36 179.84)">
+        <g id="Group_2" data-name="Group 2" transform="translate(1174.131 317.054)">
+          <path id="Path_38" data-name="Path 38" class="cls-3" d="M1812.806,236.826c-1.036-.518-51.675,22.555-51.675,22.555l11.782,3.535,6.28,14.83v-.674l2.392-12.44,16.745,6.027S1813.842,237.344,1812.806,236.826Z" transform="translate(-1761.131 -236.818)"/>
+          <path id="Path_40" data-name="Path 40" class="cls-3" d="M1832.586,362.138l10.439-11.068" transform="translate(-1814.909 -320.535)"/>
+          <line id="Line_1" data-name="Line 1" class="cls-3" y1="25.501" x2="40.074" transform="translate(11.265 0.621)"/>
+        </g>
+        <path id="Path_41" data-name="Path 41" class="cls-4" d="M19.826,11.754S13.54-2.587,2.54,1.429,19.826,33.551,19.826,33.551,47.063,7.738,36.063,1.429,19.826,11.754,19.826,11.754Z" transform="translate(1176.864 318.614) rotate(-14)"/>
+        <path id="Path_39" data-name="Path 39" class="cls-3" d="M1862.315,237.852l-9.684,8.59s-16.146,13.939-21.552,18.735" transform="translate(-636.509 79.211)"/>
+      </g>
+      <path id="Path_63" data-name="Path 63" class="cls-2" d="M1453.095-78l15.785,5.177,14.1-31.571Z" transform="translate(-222 603)"/>
+    </g>
+  </g>
+</svg>

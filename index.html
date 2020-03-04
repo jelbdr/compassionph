@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Compassion PH</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+<body>
+	<main>
+		<nav class="main-nav is-flex">
+			<figure>
+				<img src="media/logo-comp.png" alt="logo">
+			</figure>
+			<div class="nav-links">
+				<ul class="is-flex">
+					<a href="">
+						<li>
+							<i class="fab fa-instagram"></i>
+						</li>
+					</a>
+					<a href="">
+						<li>
+							<i class="fab fa-twitter"></i>
+						</li>
+					</a>
+					<a href="">
+						<li>
+							<i class="fab fa-facebook"></i>
+						</li>
+					</a>
+				</ul>
+			</div>
+		</nav>
+		<header class="has-text-centered">
+			<figure class="plane">
+				<img src="media/coming-soon-graphic.svg">
+			</figure>
+			<h2 class="is-uppercase">Coming Soon</h2>
+			<figure class="site-title">
+				<img src="media/title.png" alt="Site title">
+			</figure>
+		</header>
+		<section>
+			<div class="subscription">
+				<p>
+					Compassion aims to promote care and love with one's self, one another and our environment. We believe that this can help us co-exist and live a better and meaningful life.
+					<br>
+					Want to help? or stay updated? Leave your email here!
+				</p>
+				<div class="is-vhcentered">
+					<form class="is-flex">
+						<input type="email" name="Email">
+						<button type="submit" class="submit-btn">
+							I'm in!
+						</button>
+
+					</form>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="categories">
+				<div class="description">
+					<div class="mh-desc is-vhcentered">
+						Mental health is as important as your physical health. Not just because the pain isn't visible, its not there.
+					</div>
+					<div class="envi-desc is-vhcentered">
+						Climate change is here. We need to act now! Let's take care of our Mother earth as she take care of us.
+					</div>
+					<div class="we-desc is-vhcentered">
+						No woman should feel less than another. 
+						<br>Women uplift and support another women.
+					</div>
+					<div class="more-desc is-vhcentered">
+						Youth, elders are some of the other aspects we want to participate in. 
+					</div>
+				</div>
+				<div class="icons is-flex">
+					<figure class="mental-health">
+						<img src="media/mh.png" width="100">
+					</figure>
+					<figure class="environment">
+						<img src="media/envi.png" width="100">
+					</figure>
+					<figure class="women-empowerment">
+						<img src="media/we.png" width="100">
+					</figure>
+					<figure class="more">
+						<img src="media/plus.png" width="100">
+					</figure>
+				</div>
+			</div>
+		</section>
+		<div class="bottom-bg">
+			<div class="bottom-left">
+				
+			</div>
+			<div class="bottom-right">
+				
+			</div>
+			
+		</div>
+
+	</main>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+
+	<script type="text/javascript">
+		$('.mental-health').hover(
+		 	function () {
+	    	$('.mh-desc').toggleClass("is-flex");
+	  });
+
+	  $('.environment').hover(
+		 	function () {
+	    	$('.envi-desc').toggleClass("is-flex");
+	  });
+
+	  $('.women-empowerment').hover(
+		 	function () {
+	    	$('.we-desc').toggleClass("is-flex");
+	  });
+
+	  $('.more').hover(
+		 	function () {
+	    	$('.more-desc').toggleClass("is-flex");
+	  });
+	</script>
+</body>
+</html>
